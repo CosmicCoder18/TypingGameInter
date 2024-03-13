@@ -1,0 +1,24 @@
+CREATE TABLE Scores (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    UserName NVARCHAR(MAX) NOT NULL,
+    Score INT NOT NULL,
+    Mistakes INT,
+    ChosenTime INT
+);
+
+CREATE TABLE Scores2 (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    UserName NVARCHAR(MAX) NOT NULL,
+    Score INT NOT NULL,
+    Mistakes INT,
+    ChosenTime INT
+);
+
+CREATE TABLE Scores3 (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    UserName NVARCHAR(MAX) NOT NULL,
+    Score INT NOT NULL,
+    Mistakes INT,
+    ChosenTime INT
+);
+
